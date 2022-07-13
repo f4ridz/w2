@@ -1,0 +1,15 @@
+/*******************Position********************/
+ 4 novu var:
+1. Static ( Default browserlarda olan position)
+2. Relative ( top,right,left,bottom qiymətlərini vermekle 
+meselen: 30px əvvəlki positiondan 30px yerini sağa dəyişmək)
+3. Absolute (margin vəzifəsi görür səhifəyə görə hərəkət edir / elementi səhifənin istədiyin yerinə qoya bilirsən)
+4. Fixed ( position'u sabit qalır məs top:0 ekranı aşağıya doğru çəkdikdə digər elementlər itsə belə bu həmişə görülür)
+
+*not: Absolute position, relative'in içində olmalıdır.. mother(relative)-kid(absolute)
+
+
+/*******************Centering elements(elementi ortalama)********************/
+
+1. text-align: center;
+2. margin: 0 auto 0 auto;(horizontal)
